@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Data and generated
+backend/database/*.db
+backend/data/*.csv
+backend/models/*.joblib
+backend/models/*.pkl
+
+# Test and coverage output
+.coverage
+htmlcov/
+coverage/
+*.log
+
+# Generated frontend reports
+frontend/coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
